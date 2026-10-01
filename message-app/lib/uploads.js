@@ -1,4 +1,3 @@
-import 'server-only';
 import { uploadHandler } from '@upstash/blob';
 
 export const uploads = uploadHandler({

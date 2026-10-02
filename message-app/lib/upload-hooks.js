@@ -1,5 +1,5 @@
 'use client';
 import { uploadHooks } from '@upstash/blob/react';
-import type { uploads } from './uploads';
+import { uploads } from './uploads';
 
-export const { useUpload } = uploadHooks<typeof uploads>();
+export const { useUpload } = uploadHooks();
